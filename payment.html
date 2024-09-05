@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Safari Chap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Safari Chap</h1>
+    </header>
+
+    <main>
+        <h2>Make a Payment</h2>
+        <form action="payment.php" method="POST" id="payment-form">
+            <input type="hidden" name="amount" value="10.00"> <!-- Example amount -->
+            <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="YOUR_STRIPE_PUBLISHABLE_KEY"
+                data-description="Payment for Safari Chap"
+                data-amount="1000"
+                data-locale="auto"></script>
+        </form>
+    </main>
+</body>
+</html>

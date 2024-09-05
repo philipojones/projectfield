@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari Chap - Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: 'upload/download(1).jpeg' no-repeat center center fixed; /* Updated path to the background image */
+            background-size: cover;
+            color: #fff;
+        }
+
+        header {
+            background: #001f3f; /* Dark blue header */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #ffd700; /* Gold accent */
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background: #ffd700; /* Gold hover effect */
+            color: #001f3f; /* Dark blue text on hover */
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: calc(100vh - 160px);
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+        }
+
+        main h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #ffd700;
+        }
+
+        main p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin-bottom: 20px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn-group a {
+            background: #001f3f;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .btn-group a:hover {
+            background: #ffd700;
+            color: #001f3f;
+        }
+
+        footer {
+            background: #001f3f;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #33ccff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Safari Chap</h1>
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="register.php"><i class="fas fa-user-plus"></i> Register</a>
+            <a href="schedule.html"><i class="fas fa-calendar-alt"></i> Bus Schedule</a>
+            <a href="feedback.php"><i class="fas fa-comments"></i> Feedback</a>
+            <a href="payment.php"><i class="fas fa-credit-card"></i> Payment</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to Safari Chap</h2>
+        <p>Experience a new level of comfort and convenience with Safari Chap. Explore our bus schedules, book your tickets, and travel with ease. We are committed to making your journey safe, affordable, and enjoyable.</p>
+        <div class="btn-group">
+            <a href="schedule.html"><i class="fas fa-calendar-alt"></i> View Schedule</a>
+            <a href="register.php"><i class="fas fa-user-plus"></i> Register Now</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Safari Chap. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
